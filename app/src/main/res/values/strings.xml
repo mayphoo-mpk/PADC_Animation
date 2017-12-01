@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PADC_Animation</string>
+    <string name="bookmark_topic">BookMark Topics (4)</string>
+    <string name="dummy_topic">Android powers hundreds of device types with several different screen sizes, ranging from small phones to large TV sets.
+        Therefore, it’s important that you design your application to be compatible with all screen sizes so it’s available to as many users as possible.</string>
+</resources>

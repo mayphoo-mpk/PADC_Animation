@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mayphoo.mpk.padc_animation.components.RightMenuPane xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#A000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bookmark_topic"
+        android:textSize="@dimen/text_regular_3x"
+        android:textColor="@color/primary_text"
+        android:background="#E2DEDE"
+        android:drawableRight="@drawable/ic_arrow_drop_down_circle_black_24dp"
+        android:padding="@dimen/margin_medium_2"
+        android:fontFamily="sans-serif-light"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_first_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Building your First 3 Android Apps"
+            android:textSize="@dimen/text_regular_3x"
+            android:textStyle="bold"
+            android:padding="@dimen/margin_medium_2"
+            android:fontFamily="sans-serif-light"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_second_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn while you are building"
+            android:textSize="@dimen/text_regular_3x"
+            android:textStyle="bold"
+            android:padding="@dimen/margin_medium"
+            android:fontFamily="sans-serif-light"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_third_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Android Components"
+            android:textSize="@dimen/text_regular_3x"
+            android:textStyle="bold"
+            android:padding="@dimen/margin_medium_2"
+            android:fontFamily="sans-serif-light"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_fourth_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="the Mobile Solutions we need in our Country"
+            android:textSize="@dimen/text_regular_3x"
+            android:textStyle="bold"
+            android:padding="@dimen/margin_medium_2"
+            android:fontFamily="sans-serif-light"/>
+
+    </android.support.v7.widget.CardView>
+
+</mayphoo.mpk.padc_animation.components.RightMenuPane>
