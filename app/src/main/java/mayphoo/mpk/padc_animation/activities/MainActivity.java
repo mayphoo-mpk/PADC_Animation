@@ -1,6 +1,7 @@
 package mayphoo.mpk.padc_animation.activities;
 
 import android.support.annotation.NonNull;
+import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements TopicItemDelegate
 
     @BindView(R.id.rv_topics)
     RecyclerView rvTopics;
+
+    @BindView(R.id.constraintLayout)
+    ConstraintLayout constraintLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
